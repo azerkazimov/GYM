@@ -1,0 +1,31 @@
+#features {
+  height: 100vh;
+    .feature-item {
+        transition: all 0.3s ease-out;
+      .feature-image img {
+        width: 100%;
+      }
+  
+      .feature-title {
+        @extend .p-5;
+        color: map-get($colors, natural);
+        text-align: center;
+  
+        h2 {
+          @extend .my-3;
+          @extend .font-size-36;
+          color: map-get($colors, primary);
+        }
+      }
+
+      &:hover{
+        background-color: map-get($colors, primary-smooth );
+        .feature-title{
+            h2{
+                color: map-get($colors, inky );
+            }
+        }
+      }
+    }
+  }
+  

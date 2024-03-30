@@ -1,0 +1,9 @@
+.header-heading{
+    text-align: center;
+
+    h1 {
+        @extend .my-5;
+        @extend .font-size-48;
+        color: map-get($colors , primary);
+    }
+}

@@ -1,0 +1,13 @@
+#offer{
+    height: 100vh;
+    @extend .flex-container;
+    @extend .flex-justify-center;
+    @extend .flex-align-center;
+    @extend .flex-column;
+
+    color: map-get($colors, natural);
+    background-image: url('../images/girl.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

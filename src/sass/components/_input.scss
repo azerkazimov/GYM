@@ -1,0 +1,18 @@
+.form-control {
+    @extend .px-4;
+    @extend .py-4;
+    @extend .my-2;
+    border-radius: 10px;
+    color: map-get($colors, natural);
+    background-color: transparent;
+    border: 1px solid map-get($colors, dark);
+
+    &:focus {
+        border: 1px solid map-get($colors, primary-smooth);
+    }
+
+    &:hover {
+        box-shadow: 5px 5px 10px #2e2b2b,
+            -5px -5px 10px #363333;
+    }
+}

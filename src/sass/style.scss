@@ -1,0 +1,27 @@
+// import core variables and mixins
+@import "core/reset";
+@import "core/variables";
+@import "core/paddings";
+@import "core/margins";
+@import "core/grid";
+@import "core/flex";
+@import "core/colors";
+@import "core/typography";
+@import "core/responsive";
+
+// import blocks
+@import "blocks/nav";
+@import "blocks/header";
+@import "blocks/footer";
+@import "blocks/feauture";
+@import "blocks/offer";
+@import "blocks/about";
+@import "blocks/contact";
+
+// import components
+@import "components/button";
+@import "components/input";
+@import "components/section-heading";
+@import "components/content-heading";
+
+// import pages

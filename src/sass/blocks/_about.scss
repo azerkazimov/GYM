@@ -1,0 +1,15 @@
+#about {
+    height: 100vh;
+    @extend .flex-container;
+    .about-image img {
+        width: 100%;
+    }
+
+    .about-content {
+        p {
+            @extend .px-5;
+
+            color: map-get($colors, natural);
+        }
+    }
+}
