@@ -40,7 +40,7 @@ const Navbar = () => {
           </div>
           <ul className={burger_class ? "open" : "menu"}>
             <li>
-              <Link to="main">Header</Link>
+              <Link to="main">Home</Link>
             </li>
             <li>
               <Link to="feature">Features</Link>

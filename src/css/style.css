@@ -207,7 +207,7 @@ a {
   padding-right: 25px !important;
 }
 
-.py-5, .btn {
+.py-5, .btn, #contact, #features {
   padding-top: 25px !important;
   padding-bottom: 25px !important;
 }
@@ -976,11 +976,11 @@ a {
   align-items: end !important;
 }
 
-.flex-justify-center, .btn, #offer, #main {
+.flex-justify-center, .btn, #about, #offer, #features, #main {
   justify-content: center !important;
 }
 
-.flex-align-center, #offer, #main {
+.flex-align-center, #about, #offer, #features, #main {
   align-items: center !important;
 }
 
@@ -1420,11 +1420,11 @@ a {
     margin-left: 41.6666666667%;
   }
 }
-.flex-container, .btn, #about, #offer, #main, nav ul li a {
+.flex-container, .btn, #about, #offer, #features, #main, nav ul li a {
   display: flex;
 }
 
-.flex-column, #offer, #main {
+.flex-column, #about, #offer, #features, #main {
   flex-direction: column;
 }
 
@@ -2017,7 +2017,6 @@ a {
     display: none;
     flex-direction: column;
     align-items: start;
-    margin-top: 50px;
     width: 50%;
     gap: 20px;
   }
@@ -2046,7 +2045,7 @@ a {
     width: 100%;
     height: 100vh;
     background-color: #000;
-    padding: 50px 0;
+    padding: 100px 0;
     transition: 0.3s ease-out;
   }
   nav .click:nth-child(1) {
@@ -2073,9 +2072,6 @@ a {
   }
 }
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   position: fixed;
   left: 0;
   top: 0;
@@ -2109,8 +2105,8 @@ nav ul li a:hover {
 nav .burger-menu {
   display: none;
   position: absolute;
-  top: 70px;
-  right: 50px;
+  top: 40px;
+  right: 40px;
   flex-direction: column;
   justify-content: space-between;
   width: 50px;
@@ -2140,9 +2136,6 @@ nav .burger-menu span {
   height: 100vh;
 }
 
-#features {
-  height: 100vh;
-}
 #features .feature-item {
   transition: all 0.3s ease-out;
 }
@@ -2164,7 +2157,7 @@ nav .burger-menu span {
 }
 
 #offer {
-  height: 100vh;
+  min-height: 100vh;
   color: #fff;
   background-image: url("../images/girl.jpg");
   background-attachment: fixed;
@@ -2173,7 +2166,7 @@ nav .burger-menu span {
 }
 
 #about {
-  height: 100vh;
+  min-height: 100vh;
 }
 #about .about-image img {
   width: 100%;
@@ -2183,7 +2176,10 @@ nav .burger-menu span {
 }
 
 #contact {
-  height: 100vh;
+  background-image: url("../images/contact.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #contact .contact-form {
   display: flex;

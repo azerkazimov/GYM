@@ -1,5 +1,10 @@
 #contact {
-    height: 100vh;
+    @extend .py-5;
+    background-image: url('../images/contact.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     .contact-form {
         display: flex;
         flex-direction: column;

@@ -1,6 +1,10 @@
 #about {
-    height: 100vh;
+    min-height: 100vh;
     @extend .flex-container;
+    @extend .flex-justify-center;
+    @extend .flex-align-center;
+    @extend .flex-column;
+
     .about-image img {
         width: 100%;
     }
