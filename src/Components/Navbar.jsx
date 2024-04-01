@@ -29,7 +29,8 @@ const Navbar = () => {
             <img src={logo} alt="cobra gym" />
           </Link>
         </div>
-        <div className="col-12 col-md-6 flex-container flex-align-center flex-justify-end">
+        <div className="col-12 col-md-6 flex-container flex-align-center flex-justify-center
+        ">
           <label htmlFor="menu-btn" className="menu-icon">
             <span className="nav-icon"></span>
           </label>
