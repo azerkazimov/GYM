@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className={nav ? "nav active" : "nav"}>
       <div className="row">
         <div className="col-12 col-md-6 flex-container flex-align-center flex-justify-end">
-          <Link to="#" className="logo">
+          <Link to="main" className="logo">
             <img src={logo} alt="cobra gym" />
           </Link>
         </div>
